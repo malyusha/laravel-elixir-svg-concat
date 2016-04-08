@@ -1,0 +1,32 @@
+{
+    "name": "laravel-elixir-svg-concat",
+    "version": "1.0.0",
+    "description": "Concatenates and minifies svg files",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/malyusha/laravel-elixir-svg-concat.git"
+    },
+    "keywords": [
+        "Laravel",
+        "laravel-elixir",
+        "svg-minify",
+        "laravel-elixir-minify"
+    ],
+    "author": "Igor Malyuk",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/malyusha/laravel-elixir-svg-concat/issues"
+    },
+    "homepage": "https://github.com/malyusha/laravel-elixir-svg-concat#readme",
+    "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-imagemin": "^2.4.0",
+        "gulp-rename": "^1.2.2",
+        "gulp-svgstore": "^6.0.0",
+        "laravel-elixir": "^4.2.1"
+    }
+}
